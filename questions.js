@@ -67,6 +67,14 @@ const questions = [
     correct_option: 0,
     correct_explanation: "Good habits are helpful to have in your routine as they give you a greater sense of calm and control.",
   },
+
+  {
+    question_text: "When pushing your project to GitHub, what is the next step after git add?",
+    question_type:"multiple_choice",
+    options:["git pull", "git rebase", "git merge", "git commit"],
+    correct_option: 3,
+    correct_explanation:"Git commit follows git add so we can add a message and put the file into the staging area.",
+  },
 ];
 
 // Don't worry about this, we're just exporting the questions
